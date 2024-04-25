@@ -81,24 +81,24 @@ button:active {
 
 @media screen and (max-width: 600px){
     #calculator{
-        max-width: 300px;
-        margin-bottom: 20px;
+        max-width: 280px;
     }
 
     button{
-        width: 60px;
-        height: 60px;
-        font-size: 29px;
+        width: 50px;
+        height: 50px;
+        font-size: 27px;
     }
 
     #zero-button{
-        width: 131px;
+        width: 118px;
         padding-left: 34px;
     }
 
     #display {
-        width: 255px;
-        font-size: 60px;
+        width: 225px;
+        font-size: 55px;
+        height: 60px;
     }
 }
 
