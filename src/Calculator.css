@@ -79,3 +79,26 @@ button:active {
 }
 
 
+@media screen and (max-width: 600px){
+    #calculator{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 29px;
+    }
+
+    #zero-button{
+        width: 131px;
+        padding-left: 34px;
+    }
+
+    #display {
+        width: 255px;
+        font-size: 60px;
+    }
+}
+

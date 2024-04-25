@@ -37,7 +37,7 @@ function Calculator() {
     
     return(
         <div id="calculator">
-           <input id="display" value={display} readOnly></input>
+            <input id="display" value={display} readOnly></input>
             <div id="keys">
                 <button onClick={clearDisplay} value={'C'} className="light-gray">C</button>
                 <button onClick={operatorHandler} className="light-gray">+/-</button>
