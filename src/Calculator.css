@@ -1,0 +1,129 @@
+#calculator{
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: #1C1C1C;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+
+#display{
+    margin-left: 25px;
+    margin-right: 20px;
+    background-color: #1C1C1C;
+    color:white;
+    border: none;
+    width: 340px;
+    height: 70px;
+    margin-bottom: px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    text-align: end;
+    font-size: 70px;
+
+}
+
+#keys-after-zero{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#zero-button{
+    border-radius: 80px;
+    width: 179px;
+    text-align: start;
+    padding-left: 34px;
+}
+
+button{
+    background-color: hsl(0, 0%, 31%);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+}
+
+button:active {
+    background-color: hsl(0, 0%, 41%);
+}
+
+.orange{
+    background-color: hsl(35, 100%, 50%);
+}
+
+.orange:active{
+    background-color: hsl(35, 100%, 40%);
+}
+
+.light-gray{
+    color: #1C1C1C;
+    background-color: hsl(60, 2%, 63%);
+}
+
+.light-gray:active{
+    background-color: hsl(60, 2%, 53%);
+}
+
+
+@media screen and (max-width: 600px){
+    #calculator{
+        max-width: 280px;
+    }
+
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 27px;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    #zero-button{
+        width: 118px;
+        padding-left: 34px;
+    }
+
+    #display {
+        width: 225px;
+        font-size: 55px;
+        height: 60px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    #calculator{
+        max-width: 280px;
+    }
+
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 27px;
+    }
+
+    #zero-button{
+        width: 118px;
+        padding-left: 34px;
+    }
+
+    #display {
+        width: 225px;
+        font-size: 55px;
+        height: 60px;
+    }
+}
+
