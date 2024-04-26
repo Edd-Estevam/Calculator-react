@@ -104,7 +104,7 @@ button:active {
     }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
     #calculator{
         max-width: 280px;
     }
