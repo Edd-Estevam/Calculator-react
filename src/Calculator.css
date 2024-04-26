@@ -84,35 +84,34 @@ button:active {
 
 @media screen and (max-width: 600px){
     #calculator{
-        max-width: 180px !important; /* Use !important sparingly */
+        max-width: 260px !important; /* Use !important sparingly */
     }
 
     #keys{
-        gap: 8px;
-        padding: 10px;
-        margin-bottom: -2px;
+        gap: 10px;
+        margin-bottom: -10px;
     }
 
     #keys-after-zero{
-        width: 150px;
-        gap: 8px;     
+        width: 221px;
+        gap: 10px;     
     }
 
     #zero-button{
-        width: 82px;
+        width: 103px;
         padding-left: 19px;
     }
 
     #display {
-        width: 150px;
-        font-size: 30px;
-        height: 35px;
+        width: 208px;
+        font-size: 42px;
+        height: 40px;
     }
 
     button{
-        width: 30px;
-        height: 30px;
-        font-size: 12px;
+        width: 45px;
+        height: 45px;
+        font-size: 19px;
     }   
 }
 
