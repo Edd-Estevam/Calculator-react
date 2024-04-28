@@ -106,14 +106,14 @@ button:active {
 
     #display {
         width: 208px;
-        font-size: 42px;
+        font-size: 32px;
         height: 40px;
     }
 
     button{
         width: 45px;
         height: 45px;
-        font-size: 14px;
+        font-size: 16px;
     }   
 }
 
