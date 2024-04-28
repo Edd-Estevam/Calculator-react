@@ -113,9 +113,7 @@ button:active {
     button{
         width: 45px;
         height: 45px;
-        font-size: 19px;
-        -webkit-appearance: button; /* Reset default iOS button styles */
-        appearance: button;
+        font-size: 12px;
     }   
 }
 
